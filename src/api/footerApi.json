@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Hyderabad, India"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "6386698342"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "kumarguptaneeraj100@gmail.com"
+  }
+]
