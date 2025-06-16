@@ -30,10 +30,10 @@ A fully responsive, multi-page web application built using **React 19**, **JavaS
 
 | Tech        | Version |
 |-------------|---------|
-| React       | ^19.x   |
-| Vite        | ^5.x    |
-| Axios       | ^1.x    |
-| React Router| ^6.x    |
+| React       | ^19.1.0   |
+| Vite        | ^6.3.5    |
+| Axios       | ^1.9.0    |
+| React Router| ^7.6.2    |
 | CSS / SCSS  | Custom styling |
 
 ---
@@ -48,7 +48,8 @@ atlas-app/
 │   ├── components/       # Reusable UI components
 │   ├── pages/            # Multi-page content
 │   ├── routes/           # Dynamic routing config
-│   ├── services/         # Axios API logic
+│   ├── api/              # Axios API logic
+    ├── assets/         
 │   ├── App.jsx
 │   └── main.jsx
 ├── .gitignore
