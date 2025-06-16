@@ -1,12 +1,115 @@
-# React + Vite
+# 🌍 Atlas - Responsive Web Application (React 19 + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, multi-page web application built using **React 19**, **JavaScript**, and **Vite**, with features like:
 
-Currently, two official plugins are available:
+- 📁 Dynamic routing with React Router
+- 🔍 Real-time search filters
+- 🔄 API integration with Axios
+- 🖥️ Optimized and mobile-first responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌐 **Multi-page layout** with modern navigation
+- 📱 **Fully responsive** for all screen sizes
+- 🧭 **Dynamic routes** for flexible navigation
+- 🔎 **Search filtering** on data-driven pages
+- 📡 **Axios API integration** to fetch real-time data
+- ⚡ Built with **Vite** for lightning-fast performance
+
+---
+
+## 📸 Preview
+
+![Atlas Screenshot](./preview.png) <!-- Replace with your actual screenshot path -->
+
+---
+
+## 📦 Technologies Used
+
+| Tech        | Version |
+|-------------|---------|
+| React       | ^19.x   |
+| Vite        | ^5.x    |
+| Axios       | ^1.x    |
+| React Router| ^6.x    |
+| CSS / SCSS  | Custom styling |
+
+---
+
+## 📁 Folder Structure
+
+```
+atlas-app/
+│
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Multi-page content
+│   ├── routes/           # Dynamic routing config
+│   ├── services/         # Axios API logic
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🛠️ Getting Started
+
+### 1. 📥 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/atlas-app.git
+cd atlas-app
+```
+
+### 2. 📦 Install Dependencies
+
+Make sure you have Node.js installed, then run:
+
+```bash
+npm install
+```
+
+### 3. 💻 Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🧪 Build for Production
+
+```bash
+npm run build
+```
+
+You’ll find the output in the `dist/` directory.
+
+---
+
+## 🧑‍💻 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for improvements.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](./LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+Inspired by real-world atlas systems and built to demonstrate modern frontend capabilities using React 19 + Vite.
+
+---
