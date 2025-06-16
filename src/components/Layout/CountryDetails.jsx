@@ -115,7 +115,14 @@ const CountryDetails = () => {
     });
   }, []);
 
-  if (isPending) return <Loader />;
+  //   if (isPending) return <Loader />;
+  if (isPending) {
+    return (
+      <div className="loader-section">
+        <div className="loader"></div>
+      </div>
+    );
+  }
 
   console.log(params);
   return (

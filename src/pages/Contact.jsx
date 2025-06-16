@@ -38,7 +38,7 @@ const Contact = () => {
             placeholder="Enter your message"
             name="message"
             required
-            autoComplete="false"
+            autoComplete="off"
           ></textarea>
           <button type="submit" value="send">
             Send    <FaLongArrowAltRight />
