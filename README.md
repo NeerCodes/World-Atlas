@@ -49,7 +49,7 @@ atlas-app/
 │   ├── pages/            # Multi-page content
 │   ├── routes/           # Dynamic routing config
 │   ├── api/              # Axios API logic
-|    ├── assets/         
+|   ├── assets/         
 │   ├── App.jsx
 │   └── main.jsx
 ├── .gitignore
