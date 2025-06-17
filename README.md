@@ -1,4 +1,4 @@
-# 🌍 Atlas - Responsive Web Application (React 19 + Vite)
+# 🌍 GlobeGrid – A structured and data-driven global experience.
 
 A fully responsive, multi-page web application built using **React 19**, **JavaScript**, and **Vite**, with features like:
 
