@@ -96,6 +96,7 @@ import { useEffect, useState, useTransition } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndividualData } from "../../api/postApi";
 import Loader from "../../components/UI/Loader";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const CountryDetails = () => {
   const params = useParams();

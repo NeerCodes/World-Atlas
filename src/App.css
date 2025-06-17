@@ -168,6 +168,7 @@ nav ul {
     background-color: #0d1212;
     width: 100%;
     box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
+    z-index: 500;
   }
 
   .menu-mobile ul {
@@ -401,9 +402,7 @@ ul {
   color: #878787;
 }
 
-/* --------------- 
-country Card 
------------------- */
+/* Country Card */
 
 .country-card {
   margin-top: 3.2rem;
@@ -522,9 +521,7 @@ country Card
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* ------------------ 
-contact us page 
---------------- */
+/* contact us page  */
 
 .section-contact {
   margin: 2.6rem auto;
@@ -562,9 +559,7 @@ contact us page
   }
 }
 
-/* ----------------
-contact us Page ends here 
---------------------- */
+/* --------------------- */
 
 @media screen and (max-width: 1320px) {
   .grid-four-cols {
@@ -637,3 +632,5 @@ contact us Page ends here
 .explore-button:hover {
   background: #343434;
 }
+
+

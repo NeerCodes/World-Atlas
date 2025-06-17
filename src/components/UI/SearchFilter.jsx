@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SearchFilter = ({search, setSearch, filter, setFilter, countries, setCountries}) => {
+const SearchFilter = ({search, setSearch, filter, setFilter, countries, setCountries} ) => {
   const handleInputChange = (event) => {
     event.preventDefault();
     setSearch(event.target.value);
