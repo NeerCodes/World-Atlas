@@ -184,7 +184,12 @@ const CountryDetails = () => {
         )}
         <div className="country-card-backBtn">
           <NavLink to="/country" className="backBtn">
-            <button>Go Back</button>
+            <button>
+              <span class="btn-text">Go Back</span>
+              <span class="btn-icon">
+                <FaLongArrowAltRight />
+              </span>
+            </button>
           </NavLink>
         </div>
       </div>

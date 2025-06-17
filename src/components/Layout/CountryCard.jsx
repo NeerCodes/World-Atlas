@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const CountryCard = ({ country }) => {
@@ -9,20 +10,32 @@ const CountryCard = ({ country }) => {
         <img src={flags.svg} alt={flags.alt} />
 
         <div className="countryInfo">
-            <p className="card-title">{name.common.length > 12 ? name.common.slice(0,12) + "..." : name.common}</p>
-            <p>
-                <span className="card-description">Population: </span>{population.toLocaleString()}
-            </p>
-            <p>
-                <span className="card-description">Region: </span>{region}
-            </p>
-            <p>
-                <span className="card-description">Capital: </span>{capital[0]}
-            </p>
+          <p className="card-title">
+            {name.common.length > 12
+              ? name.common.slice(0, 12) + "..."
+              : name.common}
+          </p>
+          <p>
+            <span className="card-description">Population: </span>
+            {population.toLocaleString()}
+          </p>
+          <p>
+            <span className="card-description">Region: </span>
+            {region}
+          </p>
+          <p>
+            <span className="card-description">Capital: </span>
+            {capital[0]}
+          </p>
 
-            <NavLink to={`/country/${name.common}`}>
-                <button>Read More</button>
-            </NavLink>
+          <NavLink to={`/country/${name.common}`}>
+            <button>
+              <span class="btn-text">Read More</span>
+              <span class="btn-icon">
+                <FaLongArrowAltRight />
+              </span>
+            </button>
+          </NavLink>
         </div>
       </div>
     </li>

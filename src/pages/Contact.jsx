@@ -41,7 +41,7 @@ const Contact = () => {
             autoComplete="off"
           ></textarea>
           <button type="submit" value="send">
-            Send    <FaLongArrowAltRight />
+            Send    <span class="btn-icon"><FaLongArrowAltRight /></span>
           </button>
         </form>
       </div>

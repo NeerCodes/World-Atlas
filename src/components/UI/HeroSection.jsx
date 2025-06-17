@@ -16,7 +16,7 @@ const HeroSection = () => {
           </p>
           <NavLink to="/country">
             <button className="btn btn-darken btn-inline bg-white-box">
-              Start Exploring <FaLongArrowAltRight />
+              Start Exploring <span class="btn-icon"><FaLongArrowAltRight /></span>
             </button>
           </NavLink>
         </div>

@@ -74,6 +74,23 @@ button {
   margin-top: 1.6rem;
 }
 
+/* Icon inside all buttons animates on hover */
+button .btn-icon {
+  display: inline-flex;
+  transition: transform 0.3s ease;
+}
+
+/* Slide the icon when button is hovered */
+button:hover .btn-icon {
+  transform: translateX(5px);
+}
+
+/* Optional: hover background & border for all buttons */
+button:hover {
+  background-color: #333;
+  border-color: #25b09b;
+}
+
 /* Layout  */
 
 .container {
@@ -599,4 +616,24 @@ contact us Page ends here
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Explore Button */
+.explore-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 0.6rem 2.4rem;
+  background: #202020;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.explore-button:hover {
+  background: #343434;
 }

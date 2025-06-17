@@ -2,57 +2,211 @@
   {
     "id": 1,
     "countryName": "India",
+    "isoCode": "IN",
     "capital": "New Delhi",
-    "population": 1417000000,
-    "interestingFact": "India is the world's largest democracy and home to the ancient Indus Valley Civilization."
+    "interestingFact": "India is the world's largest democracy and a diverse land of cultures, ancient heritage, and rapid technological advancement."
   },
   {
     "id": 2,
-    "countryName": "Nepal",
-    "capital": "Kathmandu",
-    "population": 29609623,
-    "interestingFact": "Nepal is home to Mount Everest, the tallest mountain in the world at 8,848 meters."
+    "countryName": "United States",
+    "isoCode": "US",
+    "capital": "Washington, D.C.",
+    "interestingFact": "The U.S. is a global superpower, known for innovation, space exploration, economic strength, and cultural influence."
   },
   {
     "id": 3,
-    "countryName": "Egypt",
-    "capital": "Cairo",
-    "population": 104258327,
-    "interestingFact": "The Pyramids of Giza are one of the Seven Wonders of the Ancient World."
+    "countryName": "China",
+    "isoCode": "CN",
+    "capital": "Beijing",
+    "interestingFact": "China is the world's most populous nation, famous for the Great Wall and its remarkable economic transformation."
   },
   {
     "id": 4,
-    "countryName": "Australia",
-    "capital": "Canberra",
-    "population": 25687041,
-    "interestingFact": "Australia is home to the Great Barrier Reef, the largest coral reef system in the world."
+    "countryName": "Japan",
+    "isoCode": "JP",
+    "capital": "Tokyo",
+    "interestingFact": "Japan blends ancient traditions with modern technology and is renowned for its innovation and cultural impact."
   },
   {
     "id": 5,
-    "countryName": "Brazil",
-    "capital": "Brasilia",
-    "population": 213993437,
-    "interestingFact": "Brazil contains the Amazon Rainforest, the largest tropical rainforest in the world."
+    "countryName": "Germany",
+    "isoCode": "DE",
+    "capital": "Berlin",
+    "interestingFact": "Germany is Europe's largest economy, known for precision engineering, rich history, and cultural contributions."
   },
   {
     "id": 6,
-    "countryName": "France",
-    "capital": "Paris",
-    "population": 67407241,
-    "interestingFact": "The Eiffel Tower in Paris was once the tallest man-made structure in the world."
+    "countryName": "United Kingdom",
+    "isoCode": "GB",
+    "capital": "London",
+    "interestingFact": "The UK has a lasting global legacy in governance, literature, science, and is home to many prestigious institutions."
   },
   {
     "id": 7,
-    "countryName": "Russia",
-    "capital": "Moscow",
-    "population": 146000000,
-    "interestingFact": "Russia is the largest country in the world by area, covering more than 17 million square kilometers."
+    "countryName": "France",
+    "isoCode": "FR",
+    "capital": "Paris",
+    "interestingFact": "France is famous for its cuisine, fashion, landmarks like the Eiffel Tower, and strong influence on global arts."
   },
   {
     "id": 8,
-    "countryName": "China",
-    "capital": "Beijing",
-    "population": 1412000000,
-    "interestingFact": "The Great Wall of China stretches over 21,000 kilometers and can be seen from space under certain conditions."
+    "countryName": "Canada",
+    "isoCode": "CA",
+    "capital": "Ottawa",
+    "interestingFact": "Canada is known for its natural beauty, high quality of life, and a welcoming, multicultural society."
+  },
+  {
+    "id": 9,
+    "countryName": "Australia",
+    "isoCode": "AU",
+    "capital": "Canberra",
+    "interestingFact": "Australia is famous for its diverse wildlife, stunning beaches, and the world’s largest coral reef system."
+  },
+  {
+    "id": 10,
+    "countryName": "South Korea",
+    "isoCode": "KR",
+    "capital": "Seoul",
+    "interestingFact": "South Korea is a leader in pop culture, advanced technology, and boasts a dynamic and modern economy."
+  },
+  {
+    "id": 11,
+    "countryName": "Brazil",
+    "isoCode": "BR",
+    "capital": "Brasilia",
+    "interestingFact": "Brazil is home to the Amazon Rainforest and is known for vibrant culture, football passion, and biodiversity."
+  },
+  {
+    "id": 12,
+    "countryName": "Russia",
+    "isoCode": "RU",
+    "capital": "Moscow",
+    "interestingFact": "Russia is the largest country by area, rich in resources, and has played a major role in global history."
+  },
+  {
+    "id": 13,
+    "countryName": "Italy",
+    "isoCode": "IT",
+    "capital": "Rome",
+    "interestingFact": "Italy is known for its Roman heritage, artistic achievements, iconic landmarks, and delicious cuisine."
+  },
+  {
+    "id": 14,
+    "countryName": "Mexico",
+    "isoCode": "MX",
+    "capital": "Mexico City",
+    "interestingFact": "Mexico has vibrant traditions, ancient civilizations, beautiful landscapes, and a rich cultural heritage."
+  },
+  {
+    "id": 15,
+    "countryName": "South Africa",
+    "isoCode": "ZA",
+    "capital": "Pretoria",
+    "interestingFact": "South Africa is renowned for its biodiversity, cultural diversity, and its history of overcoming apartheid."
+  },
+  {
+    "id": 16,
+    "countryName": "Saudi Arabia",
+    "isoCode": "SA",
+    "capital": "Riyadh",
+    "interestingFact": "Saudi Arabia is home to Mecca and Medina and is a major oil producer in the Middle East."
+  },
+  {
+    "id": 17,
+    "countryName": "Indonesia",
+    "isoCode": "ID",
+    "capital": "Jakarta",
+    "interestingFact": "Indonesia is the world’s largest island country, known for its cultural and ecological diversity."
+  },
+  {
+    "id": 18,
+    "countryName": "Turkey",
+    "isoCode": "TR",
+    "capital": "Ankara",
+    "interestingFact": "Turkey connects Europe and Asia, known for its rich history, cuisine, and architectural heritage."
+  },
+  {
+    "id": 19,
+    "countryName": "Argentina",
+    "isoCode": "AR",
+    "capital": "Buenos Aires",
+    "interestingFact": "Argentina is known for tango, stunning landscapes like Patagonia, and strong cultural identity."
+  },
+  {
+    "id": 20,
+    "countryName": "Spain",
+    "isoCode": "ES",
+    "capital": "Madrid",
+    "interestingFact": "Spain is celebrated for its art, architecture, festivals, and Mediterranean lifestyle."
+  },
+  {
+    "id": 21,
+    "countryName": "Egypt",
+    "isoCode": "EG",
+    "capital": "Cairo",
+    "interestingFact": "Egypt is home to ancient pyramids and a civilization that dates back thousands of years."
+  },
+  {
+    "id": 22,
+    "countryName": "Netherlands",
+    "isoCode": "NL",
+    "capital": "Amsterdam",
+    "interestingFact": "The Netherlands is known for windmills, tulips, canals, and being a pioneer in environmental sustainability."
+  },
+  {
+    "id": 23,
+    "countryName": "Thailand",
+    "isoCode": "TH",
+    "capital": "Bangkok",
+    "interestingFact": "Thailand is famous for its cuisine, tropical beaches, temples, and vibrant street life."
+  },
+  {
+    "id": 24,
+    "countryName": "Sweden",
+    "isoCode": "SE",
+    "capital": "Stockholm",
+    "interestingFact": "Sweden is known for its innovation, welfare model, scenic beauty, and progressive society."
+  },
+  {
+    "id": 25,
+    "countryName": "Norway",
+    "isoCode": "NO",
+    "capital": "Oslo",
+    "interestingFact": "Norway is admired for its fjords, natural beauty, and high standards of living and sustainability."
+  },
+  {
+    "id": 26,
+    "countryName": "Switzerland",
+    "isoCode": "CH",
+    "capital": "Bern",
+    "interestingFact": "Switzerland is known for neutrality, chocolate, watches, Alps, and a strong financial system."
+  },
+  {
+    "id": 27,
+    "countryName": "United Arab Emirates",
+    "isoCode": "AE",
+    "capital": "Abu Dhabi",
+    "interestingFact": "The UAE is known for modern architecture, luxury tourism, and its rapid development in recent decades."
+  },
+  {
+    "id": 28,
+    "countryName": "Pakistan",
+    "isoCode": "PK",
+    "capital": "Islamabad",
+    "interestingFact": "Pakistan has rich history, diverse landscapes, and is home to some of the world's tallest mountains."
+  },
+  {
+    "id": 29,
+    "countryName": "Nigeria",
+    "isoCode": "NG",
+    "capital": "Abuja",
+    "interestingFact": "Nigeria is Africa’s most populous country, known for Nollywood, music, and cultural diversity."
+  },
+  {
+    "id": 30,
+    "countryName": "Vietnam",
+    "isoCode": "VN",
+    "capital": "Hanoi",
+    "interestingFact": "Vietnam offers stunning landscapes, a rich history, and a dynamic culture shaped by ancient and modern influences."
   }
 ]
